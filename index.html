@@ -1,0 +1,104 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Rebox Py | Regalos personalizados</title>
+<style>
+:root{--wine:#7b1f2d;--ink:#171515;--paper:#fbf8f4;--muted:#736d68;--line:#e8e0d8;--green:#1fa45b}*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;color:var(--ink);background:var(--paper)}header{position:sticky;top:0;z-index:10;background:rgba(251,248,244,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}.nav{max-width:1180px;margin:auto;padding:16px 22px;display:flex;align-items:center;justify-content:space-between}.logo{font-family:Georgia,serif;font-size:29px;letter-spacing:-1px}.logo b{color:var(--wine)}.actions{display:flex;gap:10px}.btn{border:0;border-radius:999px;padding:12px 18px;font-weight:750;cursor:pointer;background:var(--ink);color:#fff}.btn.alt{background:#fff;color:var(--ink);border:1px solid var(--line)}.hero{max-width:1180px;margin:auto;padding:65px 22px 42px;display:grid;grid-template-columns:1.05fr .95fr;gap:45px;align-items:center}.eyebrow{color:var(--wine);font-weight:800;text-transform:uppercase;font-size:12px;letter-spacing:1.8px}h1{font-family:Georgia,serif;font-size:clamp(45px,6vw,78px);line-height:.96;margin:12px 0 22px;letter-spacing:-3px}.hero p{font-size:19px;color:var(--muted);line-height:1.55;max-width:600px}.hero-card{min-height:470px;border-radius:32px;background:url('assets/album-hd.jpg') center/cover;position:relative;overflow:hidden;box-shadow:0 25px 60px #4b29251d}.hero-card:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 45%,rgba(0,0,0,.62))}.hero-card span{position:absolute;z-index:1;bottom:28px;left:28px;color:#fff;font:700 27px Georgia,serif}.wrap{max-width:1180px;margin:auto;padding:35px 22px}.section-title{display:flex;justify-content:space-between;align-items:end;margin-bottom:20px}.section-title h2{font:700 34px Georgia,serif;margin:0}.section-title p{color:var(--muted);margin:0}.chips{display:flex;gap:10px;overflow:auto;padding-bottom:8px}.chip{white-space:nowrap;padding:10px 15px;border:1px solid var(--line);border-radius:999px;background:#fff;font-weight:650;cursor:pointer}.chip.active{background:var(--wine);color:#fff;border-color:var(--wine)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.product{background:#fff;border:1px solid var(--line);border-radius:22px;overflow:hidden;display:flex;flex-direction:column}.product img{width:100%;aspect-ratio:4/3;object-fit:cover}.info{padding:17px}.info small{color:var(--wine);font-weight:800}.info h3{margin:7px 0 6px;font-size:19px}.info p{color:var(--muted);font-size:14px;min-height:40px}.row{display:flex;align-items:center;justify-content:space-between;gap:10px}.price{font-weight:850}.add{border:0;background:#f1e7e7;color:var(--wine);font-weight:850;padding:10px 13px;border-radius:12px;cursor:pointer}.banner{margin:60px auto;background:var(--ink);color:#fff;border-radius:28px;padding:38px;display:grid;grid-template-columns:1fr auto;gap:25px;align-items:center}.banner h2{font:700 34px Georgia,serif;margin:0 0 8px}.banner p{color:#cfc8c4;margin:0}footer{padding:38px 22px;border-top:1px solid var(--line);text-align:center;color:var(--muted)}.drawer{position:fixed;inset:0 0 0 auto;width:min(460px,100%);background:#fff;z-index:30;box-shadow:-15px 0 50px #0002;padding:22px;transform:translateX(105%);transition:.25s;overflow:auto}.drawer.open{transform:none}.drawer-head{display:flex;justify-content:space-between;align-items:center}.close{font-size:25px;border:0;background:none;cursor:pointer}.cart-item{padding:14px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:12px}.empty{color:var(--muted);padding:35px 0}.total{display:flex;justify-content:space-between;font-size:19px;font-weight:850;padding:20px 0}.full{width:100%}.continue{background:var(--wine)}form{display:grid;gap:10px;margin-top:22px}input,select,textarea{width:100%;padding:13px;border:1px solid var(--line);border-radius:12px;font:inherit}textarea{min-height:75px;resize:vertical}.checkout{width:100%;margin-top:8px;background:var(--green)}.note{font-size:12px;color:var(--muted)}.back{border:0;background:none;padding:0;color:var(--wine);font-weight:750;cursor:pointer;margin-top:6px}.overlay{position:fixed;inset:0;background:#0005;z-index:20;display:none}.overlay.on{display:block}.step{font-size:12px;color:var(--muted);font-weight:750;margin-bottom:6px}.cart-btn{position:relative;display:grid;place-items:center;width:46px;height:46px;padding:0;border-radius:50%}.cart-btn svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}.cart-badge{position:absolute;top:-4px;right:-4px;min-width:20px;height:20px;padding:0 5px;border-radius:999px;background:var(--wine);color:#fff;border:2px solid var(--paper);display:grid;place-items:center;font-size:11px;font-weight:850}.drawer-body-lock{overflow:hidden}
+@media(max-width:760px){
+.nav{padding:12px 16px}.logo{font-size:25px}.actions{gap:8px}.nav .alt{display:none}.cart-btn{width:42px;height:42px}
+.hero{grid-template-columns:1fr;padding:38px 16px 28px;gap:26px}.hero h1{font-size:clamp(43px,14vw,62px);letter-spacing:-2px}.hero p{font-size:17px}.hero .actions{display:grid;grid-template-columns:1fr 1fr}.hero .actions .btn{padding:13px 10px}
+.hero-card{min-height:340px;border-radius:24px}.hero-card span{font-size:22px;left:20px;bottom:20px;right:20px}
+.wrap{padding:28px 16px}.section-title{align-items:start;gap:8px;flex-direction:column}.section-title h2{font-size:30px}.chips{margin-right:-16px;padding-right:16px;scrollbar-width:none}.chips::-webkit-scrollbar{display:none}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.product{border-radius:17px}.product img{aspect-ratio:1/1}.info{padding:12px}.info h3{font-size:16px;line-height:1.2;min-height:38px}.info p{display:none}.row{align-items:flex-end;gap:6px;flex-wrap:wrap}.price{font-size:14px}.add{width:100%;padding:10px 8px}.banner{margin:42px 0;padding:26px 22px;grid-template-columns:1fr}.banner h2{font-size:29px}
+.drawer{width:100%;padding:18px 16px 24px;border-radius:0;box-shadow:none}.drawer-head{position:sticky;top:-18px;background:#fff;z-index:2;padding:16px 0 10px}.cart-item{padding:14px 0}.total{position:sticky;bottom:62px;background:#fff;padding:16px 0 12px}.drawer>.full{position:sticky;bottom:0}.checkout{position:sticky;bottom:0;padding:14px 18px}
+input,select,textarea{font-size:16px;padding:14px}.note{padding-bottom:8px}footer{padding:30px 16px}
+}
+@media(max-width:390px){.hero .actions{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.product{display:grid;grid-template-columns:120px 1fr}.product img{height:100%;aspect-ratio:auto}.info h3{min-height:auto}.add{width:auto}.row{align-items:center}.section-title h2{font-size:28px}}
+</style></head><body>
+<header><div class="nav"><div class="logo">rebox<b>py</b></div><div class="actions"><button class="btn alt" onclick="document.querySelector('#catalogo').scrollIntoView({behavior:'smooth'})">Ver regalos</button><button class="btn cart-btn" type="button" onclick="openCart()" aria-label="Abrir carrito" title="Carrito"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3h2l2.4 10.2a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 1.9-1.4L21 7H7"></path><circle cx="10" cy="20" r="1"></circle><circle cx="18" cy="20" r="1"></circle></svg><span class="cart-badge" id="count">0</span></button></div></div></header>
+<main><section class="hero"><div><div class="eyebrow">Regalos personalizados · Paraguay</div><h1>Regalos que la gente no olvida.</h1><p>Encontrá una idea, armá tu pedido y envialo listo por WhatsApp. Personalizamos regalos para personas, eventos y empresas.</p><div class="actions"><button class="btn" onclick="document.querySelector('#catalogo').scrollIntoView({behavior:'smooth'})">Explorar regalos</button><button class="btn alt" onclick="window.open('https://wa.me/595981284148','_blank')">Hablar por WhatsApp</button></div></div><div class="hero-card"><span>Hecho especialmente para alguien.</span></div></section>
+<section class="wrap" id="catalogo"><div class="section-title"><div><div class="eyebrow">Catálogo</div><h2>Elegí tu próximo regalo</h2></div><p>Podés combinar varios productos en un pedido.</p></div><div class="chips" id="chips"></div><div class="grid" id="products"></div><div class="banner"><div><h2>¿Buscás regalos para tu empresa?</h2><p>Merchandising y regalos personalizados para equipos, clientes y eventos corporativos.</p></div><button class="btn" onclick="window.open('https://wa.me/595981284148?text=Hola%20Rebox%2C%20quiero%20consultar%20por%20regalos%20para%20empresa','_blank')">Consultar para empresas</button></div></section></main>
+<footer><div class="logo">rebox<b>py</b></div><p>Asunción · Envíos a todo Paraguay · @reboxpy</p></footer><div class="overlay" id="overlay" onclick="closeDrawers()"></div>
+<aside class="drawer" id="cart"><div class="drawer-head"><div><div class="eyebrow">Tu pedido</div><h2 style="margin:5px 0;font-family:Georgia,serif">Carrito</h2></div><button class="close" onclick="closeDrawers()">×</button></div><div id="cartItems"></div><div class="total"><span>Total</span><span id="total">Gs. 0</span></div><button class="btn continue full" onclick="goCheckout()">Confirmar carrito</button></aside>
+<aside class="drawer" id="checkout"><div class="drawer-head"><div><div class="step">PASO 2 DE 2</div><div class="eyebrow">Finalizar pedido</div><h2 style="margin:5px 0;font-family:Georgia,serif">Tus datos</h2></div><button class="close" onclick="closeDrawers()">×</button></div><button class="back" onclick="backToCart()">← Volver al carrito</button><div id="summary"></div><form id="orderForm" onsubmit="sendOrder(event)"><input required id="name" placeholder="Tu nombre"><input required id="date" type="date"><select required id="delivery"><option value="">Retiro o delivery</option><option>Retiro</option><option>Delivery</option></select><input id="address" placeholder="Dirección / zona"><textarea id="dedication" placeholder="Dedicatoria"></textarea><textarea id="notes" placeholder="Observaciones"></textarea><button class="btn checkout" type="submit">Enviar pedido por WhatsApp</button><div class="note">Rebox confirmará disponibilidad, personalización y condiciones de entrega por WhatsApp.</div></form></aside>
+<script>
+const PRICE = 50000;
+const productsData = [
+  {id:1,n:'Polaroids personalizadas',c:'Parejas',img:'assets/album.jpg',d:'Tus fotos favoritas impresas en formato Polaroid.',p:PRICE},
+  {id:2,n:'Álbum Nuestra Historia',c:'Parejas',img:'assets/album-hd.jpg',d:'Un recorrido personalizado por los momentos de ustedes.',p:PRICE},
+  {id:3,n:'Kit Hot Wheels',c:'Hot Wheels',img:'assets/hotwheels-hd.jpg',d:'Una presentación temática para fanáticos de los autos.',p:PRICE},
+  {id:4,n:'Flip Book personalizado',c:'Regalos',img:'assets/flipbook-hd.jpg',d:'Un detalle con fotos y recuerdos hecho a medida.',p:PRICE},
+  {id:5,n:'Remera personalizada',c:'Ropa',img:'assets/album.jpg',d:'Diseño personalizado para regalar o usar en eventos.',p:PRICE},
+  {id:6,n:'Ramo Hot Wheels',c:'Cumpleaños',img:'assets/hotwheels-kit.jpg',d:'Un regalo temático llamativo para una ocasión especial.',p:PRICE}
+];
+const categories = ['Todos','Regalos','Parejas','Cumpleaños','Hot Wheels','Ropa','Empresas'];
+let cartData = [];
+let activeFilter = 'Todos';
+
+const el = {
+  chips: document.getElementById('chips'),
+  products: document.getElementById('products'),
+  count: document.getElementById('count'),
+  cartDrawer: document.getElementById('cart'),
+  checkoutDrawer: document.getElementById('checkout'),
+  overlay: document.getElementById('overlay'),
+  cartItems: document.getElementById('cartItems'),
+  total: document.getElementById('total'),
+  summary: document.getElementById('summary'),
+  name: document.getElementById('name'),
+  date: document.getElementById('date'),
+  delivery: document.getElementById('delivery'),
+  address: document.getElementById('address'),
+  dedication: document.getElementById('dedication'),
+  notes: document.getElementById('notes')
+};
+
+const money = n => 'Gs. ' + n.toLocaleString('es-PY');
+
+function renderProducts(){
+  el.chips.innerHTML = categories.map(c => `<button class="chip ${c===activeFilter?'active':''}" type="button" onclick="setFilter('${c}')">${c}</button>`).join('');
+  let list = activeFilter === 'Todos' ? productsData : productsData.filter(x => x.c === activeFilter);
+  if(activeFilter === 'Empresas') list = [{id:7,n:'Regalos corporativos',c:'Empresas',img:'assets/album-hd.jpg',d:'Opciones personalizadas para equipos, clientes y eventos.',p:PRICE}];
+  el.products.innerHTML = list.map(p => `<article class="product"><img src="${p.img}" alt="${p.n}" loading="lazy"><div class="info"><small>${p.c}</small><h3>${p.n}</h3><p>${p.d}</p><div class="row"><span class="price">${money(p.p)}</span><button class="add" type="button" onclick='addToCart(${JSON.stringify(p)})'>+ Agregar</button></div></div></article>`).join('');
+}
+
+function setFilter(category){ activeFilter = category; renderProducts(); }
+function addToCart(product){ cartData.push(product); renderCart(); }
+function removeFromCart(index){ cartData.splice(index,1); renderCart(); }
+
+function renderCart(){
+  el.count.textContent = cartData.length;
+  el.cartItems.innerHTML = cartData.length ? cartData.map((p,i) => `<div class="cart-item"><div><b>${p.n}</b><br><small>${money(p.p)}</small></div><button class="close" type="button" onclick="removeFromCart(${i})" aria-label="Quitar ${p.n}">×</button></div>`).join('') : `<div class="empty">Todavía no agregaste productos.</div>`;
+  el.total.textContent = money(cartData.reduce((sum,p) => sum + p.p,0));
+}
+
+function lockBody(lock){ document.body.classList.toggle('drawer-body-lock', lock); }
+function openCart(){
+  el.checkoutDrawer.classList.remove('open');
+  el.cartDrawer.classList.add('open');
+  el.overlay.classList.add('on');
+  lockBody(true);
+}
+function closeDrawers(){
+  el.cartDrawer.classList.remove('open');
+  el.checkoutDrawer.classList.remove('open');
+  el.overlay.classList.remove('on');
+  lockBody(false);
+}
+function goCheckout(){
+  if(!cartData.length){ alert('Agregá al menos un producto al carrito.'); return; }
+  el.cartDrawer.classList.remove('open');
+  el.summary.innerHTML = `<div class="total"><span>${cartData.length} producto${cartData.length>1?'s':''}</span><span>${money(cartData.reduce((sum,p)=>sum+p.p,0))}</span></div>`;
+  el.checkoutDrawer.classList.add('open');
+  el.checkoutDrawer.scrollTop = 0;
+}
+function backToCart(){ el.checkoutDrawer.classList.remove('open'); el.cartDrawer.classList.add('open'); }
+
+function sendOrder(event){
+  event.preventDefault();
+  const items = cartData.map((p,i)=>`${i+1}. ${p.n} — ${money(p.p)}`).join('\n');
+  const sum = money(cartData.reduce((s,p)=>s+p.p,0));
+  const msg = `Hola Rebox 👋 Quiero hacer este pedido:\n\n${items}\n\nTotal: ${sum}\n\nNombre: ${el.name.value}\nFecha de entrega: ${el.date.value}\nEntrega: ${el.delivery.value}\nDirección/Zona: ${el.address.value||'-'}\nDedicatoria: ${el.dedication.value||'-'}\nObservaciones: ${el.notes.value||'-'}\n\n¿Me confirman disponibilidad y detalles de personalización?`;
+  window.open('https://wa.me/595981284148?text='+encodeURIComponent(msg),'_blank');
+}
+
+document.addEventListener('keydown', e => { if(e.key === 'Escape') closeDrawers(); });
+renderProducts();
+renderCart();
+</script></body></html>
